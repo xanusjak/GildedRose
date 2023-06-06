@@ -14,6 +14,7 @@
 		968208A02A2FBAAC007783AC /* GildedRoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9682089F2A2FBAAC007783AC /* GildedRoseTests.swift */; };
 		968208AA2A2FBAAC007783AC /* GildedRoseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968208A92A2FBAAC007783AC /* GildedRoseUITests.swift */; };
 		968208AC2A2FBAAC007783AC /* GildedRoseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968208AB2A2FBAAC007783AC /* GildedRoseUITestsLaunchTests.swift */; };
+		968208B92A2FBAEA007783AC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968208B82A2FBAEA007783AC /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		968208A52A2FBAAC007783AC /* GildedRoseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GildedRoseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		968208A92A2FBAAC007783AC /* GildedRoseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRoseUITests.swift; sourceTree = "<group>"; };
 		968208AB2A2FBAAC007783AC /* GildedRoseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRoseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		968208B82A2FBAEA007783AC /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				9682088D2A2FBAAA007783AC /* GildedRoseApp.swift */,
 				9682088F2A2FBAAA007783AC /* ContentView.swift */,
+				968208B82A2FBAEA007783AC /* Item.swift */,
 				968208912A2FBAAC007783AC /* Assets.xcassets */,
 				968208932A2FBAAC007783AC /* GildedRose.entitlements */,
 				968208942A2FBAAC007783AC /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				968208902A2FBAAA007783AC /* ContentView.swift in Sources */,
+				968208B92A2FBAEA007783AC /* Item.swift in Sources */,
 				9682088E2A2FBAAA007783AC /* GildedRoseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

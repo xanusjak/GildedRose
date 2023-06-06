@@ -2,10 +2,11 @@
 //  GildedRoseTests.swift
 //  GildedRoseTests
 //
-//  Created by Work on 06/06/2023.
+//  Created by Milan Anusjak on 12/09/2022.
 //
 
 import XCTest
+@testable import GildedRose
 
 final class GildedRoseTests: XCTestCase {
 
@@ -18,11 +19,10 @@ final class GildedRoseTests: XCTestCase {
     }
 
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+        let items = [Item(name: "foo", sellIn: 0, quality: 0)]
+        let contentView = ContentView(items: items)
+        contentView.updateQuality()
+        XCTAssertEqual(contentView.items[0].name, "fixme")
     }
 
     func testPerformanceExample() throws {
