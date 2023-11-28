@@ -19,10 +19,9 @@ final class GildedRoseTests: XCTestCase {
     }
 
     func testExample() throws {
-        let items = [Item(name: "foo", sellIn: 0, quality: 0)]
-        let contentView = ContentView(items: items)
-        contentView.updateQuality()
-        XCTAssertEqual(contentView.items[0].name, "fixme")
+        let model = ContentViewModel(items: [Item(name: "foo", sellIn: 10, quality: 10)])
+        model.updateQuality()
+        XCTAssertEqual(model.items[0].name, "fixme")
     }
 
     func testPerformanceExample() throws {
